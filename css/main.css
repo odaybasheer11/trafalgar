@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "myFont";
+    src: url(../fonts/Mulish-VariableFont_wght.ttf);
+}
+body {
+    font-family: "myFont";
+    overflow-x: hidden;
+    width: 100vw;
+}
+:root {
+    --mainColor : #458FF6;
+    --secondaryColor : #000;
+}
+.btn.btn-light {
+    color: var(--mainColor);
+    border: 2px solid var(--mainColor);
+    border-radius: 200px 200px;
+    padding: 12px 50px 12px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+.heading-section h2::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background-color: var(--secondaryColor);
+    border-radius: 100px;
+    top: 55px;
+    left: 520px;
+}
+
+/* Start Hero */
+.logo-name {
+    color: #233348;
+    font-size: 25px;
+}
+.element-hero {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+/* End Hero */
+
+/* Start Services */
+.services {
+    padding-top: 200px;
+}
+.services .box-services {
+    height: 330px;
+}
+.services .bg-services {
+    z-index: -1;
+    position: absolute;
+    top: 370px;
+    left: -80px
+}
+.element-services {
+    position: absolute;
+    right: 130px;
+    top: 58%;
+    z-index: -1;
+}
+/* End Services */
+
+/* Start Healthcare */
+.info .heading-section h2::after {
+    top: 110px;
+    left: 0px;
+}
+.info .download-app {
+    padding-top: 300px;
+}
+.element-info {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+/* End Healthcare */
+
+/* Start Testimonials */
+.testimonials .carousel-item img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+.testimonials .carousel-inner {
+    background-color: var(--mainColor);
+    margin-top: 200px;
+    padding-bottom: 150px;
+}
+.testimonials .heading-section h2::after {
+    background-color: #fff;
+}
+.testimonials .media {
+    padding-left: 170px;
+}
+.element-testimonials {
+    position: absolute;
+    top: -16px;
+    right: 135px;
+}
+.element-testimonials-2 {
+    position: absolute;
+    z-index: -1;
+    bottom: 35px;
+    left: 133px;
+}
+/* End Testimonials */
+
+/* Start Articls */
+.articls {
+    margin-top: 200px;
+}
+.articls .bg-articles {
+    z-index: -1;
+    position: absolute;
+    right: -90px;
+    top: -70px;
+}
+.element-articles {
+    position: absolute;
+    left: 9%;
+    top: -42px;
+    z-index: -1;
+}
+/* End Articls */
+
+/* Start Footer */
+.footer {
+    background-color: var(--mainColor);
+    margin-top: 200px;
+    padding: 110px 0 80px 0;
+}
+.footer-logo {
+    font-size: 22px;
+}
+.footer .element-footer {
+    position: absolute;
+    right: 40px;
+    z-index: -1;
+    top: -70px
+}
+.footer .element-footer-2 {
+    position: absolute;
+    left: -4px;
+    bottom: 0px;
+}
+/* End Footer */
